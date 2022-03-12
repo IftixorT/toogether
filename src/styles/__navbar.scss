@@ -1,0 +1,141 @@
+// HEADER SECTION
+
+.header {
+	padding: 20px 0 !important;
+	height: 100px;
+	.header__number {
+		padding: 10px 20px;
+		background-color: $yellow;
+		color: $black-text;
+		font-weight: 600;
+		border-radius: 25px;
+		transition: 0.2s all ease-in-out;
+		&:hover {
+			background-color: $white;
+		}
+		img {
+			margin-right: 10px;
+		}
+	}
+	#opener-nav,
+	#nav-closer {
+		display: none;
+		fill: $white;
+	}
+	#nav-closer {
+		position: absolute;
+		top: 20px;
+		right: 40px;
+	}
+}
+
+nav {
+	width: 80%;
+	transition: 0.5s right ease-in-out;
+	.nav {
+		width: 58%;
+	}
+	.nav__link {
+		color: $white;
+		font-weight: 500;
+		text-transform: uppercase;
+		position: relative;
+		transition: 0.3s opacity ease-in-out;
+		text-decoration: none;
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+
+.res-nav {
+	position: fixed;
+	display: block !important;
+	width: 100%;
+	height: 100vh;
+	padding-bottom: 100px;
+	padding: 110px 0 !important;
+	top: 0;
+	right: 0;
+	z-index: 111 !important;
+	background-color: $black;
+	.flex {
+		flex-direction: column;
+		justify-content: flex-start !important;
+	}
+	.nav {
+		width: 100%;
+		margin: 0 auto;
+		.nav__item {
+			margin-bottom: 40px;
+			.nav__link {
+				font-size: 16px;
+			}
+		}
+	}
+	.header__panel {
+		width: 100%;
+		.header__number {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-size: 12px;
+		}
+	}
+}
+
+.header__panel {
+	width: 30%;
+	cursor: pointer !important;
+	.header__language {
+		select {
+			transition: 0.5s all ease-in-out;
+			cursor: pointer;
+			appearance: none;
+			outline: none;
+			background-color: transparent;
+			color: $white;
+			border: none;
+			padding: 20px 10px;
+			option {
+				background: $black;
+				color: $white;
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+			}
+		}
+	}
+}
+
+@media (min-width: 1700px) {
+	nav {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		padding: 20px 0;
+		height: auto !important;
+	}
+	#opener-nav {
+		display: block !important;
+	}
+	nav {
+		display: none !important;
+	}
+	.res-nav #nav-closer {
+		display: block;
+	}
+}
+
+@media (max-width: 350px) {
+	.header {
+		padding: 15px 0;
+	}
+	.res-nav {
+		height: 78vh;
+		top: 80px;
+	}
+	.nav__item {
+		margin-bottom: 25px !important;
+	}
+}

@@ -1,0 +1,99 @@
+.video-js {
+    width: 976px;
+    max-width: 100%;
+    height: 576px;
+    margin: 50px auto 0;
+    border-radius: 30px;
+}
+.vjs-tech {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.videoPlayer {
+}
+.video-js .vjs-big-play-button {
+    width: 120px;
+    max-width: 100%;
+    height: 120px;
+    background: #FFC339;
+    border-radius: 50%;
+    font-size: 80px;
+    border: none;
+    left: 63%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+.video-js .vjs-control-bar {
+    font-size: 1.1em;
+    background: #4e4f51;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 1024px) {
+    .video-js {
+        width: 600px;
+        max-width: 100%;
+        height: 476px;
+        margin: 50px auto 0;
+        border-radius: 30px;
+    }
+
+    .video-js .vjs-big-play-button {
+        width: 80px;
+        max-width: 100%;
+        height: 80px;
+        background: #FFC339;
+        border-radius: 50%;
+        font-size: 50px;
+        border: none;
+        left: 63%;
+        top: 55%;
+    }
+}
+@media (max-width: 768px) {
+    .video-js {
+        width: 500px;
+        max-width: 100%;
+        height: 400px;
+        margin: 50px auto 0;
+        border-radius: 30px;
+    }
+
+    .video-js .vjs-big-play-button {
+        width: 50px;
+        max-width: 100%;
+        height: 50px;
+        background: #FFC339;
+        border-radius: 50%;
+        font-size: 32px;
+        border: none;
+        left: 63%;
+        top: 55%;
+    }
+}
+@media (max-width: 414px) {
+    .video-js {
+        width: 340px;
+        max-width: 100%;
+        height: 220px;
+        margin: 30px auto 0;
+        border-radius: 30px;
+    }
+
+    .video-js .vjs-big-play-button {
+        width: 50px;
+        max-width: 100%;
+        height: 50px;
+        background: #FFC339;
+        border-radius: 50%;
+        font-size: 32px;
+        border: none;
+        left: 63%;
+        top: 55%;
+    }
+    .video-js .vjs-control-bar {
+        font-size: 1.1em;
+    }
+}

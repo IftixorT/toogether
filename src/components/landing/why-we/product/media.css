@@ -1,0 +1,237 @@
+@media screen and (min-width: 1535px) {
+	#container3 {
+		background: url(../../../../assets/images/why-we/Burger.png),
+			url(../../../../assets/images/why-we/image34.png);
+		background-size: 45%, 0;
+		background-repeat: no-repeat;
+		background-position: right -22% bottom 50%;
+		background-color: #222427;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.inputs {
+		width: 100%;
+		height: 40px;
+		font-size: 36px;
+		font-weight: 300;
+		margin: 10px 0;
+	}
+	.itemText {
+		font-size: 18px;
+		font-weight: 700;
+		padding-top: 15px;
+		border-top: 2px solid #4e4f51;
+		width: 30vw;
+	}
+	.circle {
+		min-width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		margin-right: 20px;
+	}
+
+	.outCircle {
+		min-width: 80px;
+		height: 80px;
+	}
+
+	.content {
+		margin-top: 0;
+	}
+	.title {
+		margin-bottom: 80px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.inputs {
+		width: 100%;
+		height: 40px;
+		font-size: 30px;
+		font-weight: 300;
+		margin: 8px 0;
+	}
+	#container3 {
+		background-position: right -30% center;
+		height: 100%;
+	}
+	.itemText {
+		font-size: 15px;
+		font-weight: 700;
+		padding-top: 10px;
+		border-top: 2px solid #4e4f51;
+		width: 30vw;
+	}
+	.circle {
+		min-width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		margin-right: 20px;
+	}
+
+	.outCircle {
+		min-width: 70px;
+		height: 70px;
+	}
+
+	.content {
+		margin-top: 3rem;
+	}
+	.title {
+		margin-bottom: 80px;
+	}
+	._product {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 850px) {
+	._product {
+		justify-content: center;
+		margin-bottom: 35px;
+	}
+	#container3 {
+		position: relative;
+		z-index: 1;
+		background: #222427;
+	}
+	#container3::before {
+		content: '';
+		background: url(../../../../assets/images/why-we/Burger.png);
+		background-repeat: no-repeat;
+		background-size: 80vw;
+		background-position: center;
+		position: absolute;
+		z-index: -1;
+		width: 100vw;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.2;
+	}
+	.inputs {
+		width: 100%;
+		height: 40px;
+		font-size: 36px;
+		font-weight: 300;
+		margin: 8px 0;
+	}
+	.itemText {
+		font-size: 21px;
+		font-weight: 700;
+		padding-top: 10px;
+		border-top: 2px solid #4e4f51;
+		width: 40vw;
+	}
+	.circle {
+		min-width: 90px;
+		height: 90px;
+		border-radius: 50%;
+		margin-right: 20px;
+	}
+
+	.outCircle {
+		min-width: 90px;
+		height: 90px;
+	}
+
+	.content {
+		margin-top: 3rem;
+	}
+	.title {
+		margin-bottom: 80px;
+	}
+}
+@media screen and (max-width: 645px) {
+	.inputs {
+		width: 100%;
+		height: 40px;
+		font-size: 30px;
+		font-weight: 300;
+		margin: 8px 0;
+	}
+	#container3::before {
+		background-size: 90vw;
+	}
+	.itemText {
+		font-size: 16px;
+		font-weight: 700;
+		padding-top: 10px;
+		border-top: 2px solid #4e4f51;
+		width: 50vw;
+	}
+	.circle {
+		min-width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		margin-right: 20px;
+	}
+
+	.outCircle {
+		min-width: 80px;
+		height: 80px;
+	}
+
+	.content {
+		margin-top: 3rem;
+	}
+	.title {
+		margin-bottom: 80px;
+		font-size: 40px;
+	}
+	._product {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.inputs {
+		width: 100%;
+		height: 40px;
+		font-size: 24px;
+		font-weight: 300;
+		margin: 8px 0;
+	}
+	#container3 {
+		background: url(../../../../assets/images/why-we/image34.png), #222427;
+		background-repeat: no-repeat;
+		padding: 20px 0;
+		height: 100%;
+	}
+	#container3::before {
+		content: none;
+		background: none;
+	}
+	.itemText {
+		font-size: 15px;
+		font-weight: 700;
+		padding-top: 10px;
+		border-top: 2px solid #4e4f51;
+		width: 70vw;
+	}
+	.circle {
+		min-width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		margin-right: 0;
+	}
+
+	.outCircle {
+		min-width: 70px;
+		height: 70px;
+	}
+
+	.content {
+		margin-top: 0rem;
+	}
+	.title {
+		margin-bottom: 30px;
+		font-size: 30px;
+	}
+	._product {
+		margin-bottom: 40px;
+		flex-direction: column;
+	}
+	.text {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+}
